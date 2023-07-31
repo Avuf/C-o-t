@@ -23,7 +23,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001894492214"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5164928761"))
-
+ADMINS = int(os.environ.get(" OWNER_ID")
 #Port
 PORT = os.environ.get("PORT", "8080")
 
@@ -33,6 +33,8 @@ DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+AUTH_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL")
+REQ_CHANNEL =int(os.environ.get("FORCE_SUB_CHANNEL")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
