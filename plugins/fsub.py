@@ -6,7 +6,7 @@ from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 import enums
 from database.join_reqs import JoinReqs
-from info import ADMINS, AUTH_CHANNEL, JOIN_REQS_DB, REQ_CHANNEL
+from config import ADMINS, AUTH_CHANNEL, JOIN_REQS_DB, REQ_CHANNEL
 
 logger = getLogger(__name__)
 INVITE_LINK = None
